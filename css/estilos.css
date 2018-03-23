@@ -1,5 +1,7 @@
 #slider-background{
-	background-image: url(images/slider.jpg);
+	background-image: url(../images/slider.jpg);
 	background-repeat: no-repeat;
 	background-size:cover;
+	width: 100%;
+	height: 60vh;
 }
