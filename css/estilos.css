@@ -14,22 +14,40 @@
 }
 
 #header-container{
-	margin:0;
+	margin:auto;
 	padding:0;
 	display: block;
-
-
 }
+
+body{
+	overflow-x: hidden;
+}
+@media only screen and (min-width:772px){
 #logo-slider{
 	position: absolute;
-	top:10%;
-	bottom:10%; 
-	right: 30%;
-	left: 30%;
+	top:20vh;
+	bottom:auto; 
+	right: 30vw;
+	left: 30vw;
 	margin: auto;
 	width: 30%;
 	height: auto;
 	display: block;
+}
+}
+@media only screen and (max-width: 772px){
+	#logo-slider{
+	position:absolute;
+	top:11vh;
+	bottom: auto;
+	right: 25%;
+	left: 25%;
+	margin: auto;
+	width:40%;
+	height: auto;
+	display: block;
+
+}
 }
 header{
 	padding: 0;
