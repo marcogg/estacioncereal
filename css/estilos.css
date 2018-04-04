@@ -52,4 +52,23 @@ body{
 header{
 	padding: 0;
 }
+
+#cereal{
+	margin: auto;
+	width: auto;
+	height: 350px;
+}
+
+.parallax_section{
+	height: 600px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 100% auto;
+	position:relative; } 
+
+	.display-flex{
+		display: flex;
+		flex-wrap: wrap;
+	}
 /*Animacion logo slider-----------------------*/
