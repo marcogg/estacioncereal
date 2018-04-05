@@ -59,16 +59,37 @@ header{
 	height: 350px;
 }
 
-.parallax_section{
-	height: 600px;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
-	background-position: 100% auto;
-	position:relative; } 
+.parallax { 
+    /* The image used 
+    background-image: url("img_parallax.jpg");*/
+
+    /* Set a specific height */
+    height: 50%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 	.display-flex{
 		display: flex;
 		flex-wrap: wrap;
 	}
+
+	.quienes-somos{
+		background-image: url(media/images/fondo.jpg) !important;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 100%;
+
+	}
+
+	.padding-center{
+		padding-bottom: 5%;
+		padding-top: 5%;
+	}
+
+
 /*Animacion logo slider-----------------------*/
