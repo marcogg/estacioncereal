@@ -1,17 +1,43 @@
-#slider-background{
+@media only screen and (min-width: 768px){
+	#slider-background{
+		position: static;
+	    right: 0;
+	    bottom: 0;
+	    left:0;
+	    top:0;
+	    margin:auto;
+	    min-width: 100vw; 
+	    min-height: auto;
+	    width: 100vw;
+	    max-width: 100vw;
+	    display: flex;
+	    flex-wrap: wrap;
+	}
+	#slider-thumbnail{
+		display: none;
+	}
+}
+
+@media only screen and (max-width:768px){
+	#slider-thumbnail{
 	position: static;
-    right: 0;
-    bottom: 0;
-    left:0;
     top:0;
     margin:auto;
-    min-width: 100vw; 
-    min-height: auto;
-    width: 100vw;
-    max-width: 100vw;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
+	}
+	#slider-background{
+		display: none;
+	}
+	.logo{
+		display: none;
+	}
+	#padding-header{
+
+	}
 }
+
 
 #header-container{
 	margin:auto;
@@ -90,6 +116,19 @@ header{
 		padding-bottom: 5%;
 		padding-top: 5%;
 	}
+.background-navbar{
+	background-color:#f7f7f7;
+	box-shadow: 8px 8px 8px rgba(0,0,0,.15)
+}
 
+h1, h2, h3, h4{
+	font-family: 'Passion One', cursive;
+}
+p{
+	font-family: 'Comfortaa', cursive;
+}
+h5, h6{
+	font-family: 'Lobster', cursive;	
+}
 
 /*Animacion logo slider-----------------------*/
