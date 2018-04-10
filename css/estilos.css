@@ -134,4 +134,16 @@ h5, h6{
 	background-color: #16264f!important;
 }
 
+.no-padding{
+	padding: 0 !important;
+	margin: auto;
+}
+
+.container-width{
+	min-width: 100vw;
+}
+.img-width{
+	width: 25%;
+	height: 100%;
+}
 /*Animacion logo slider-----------------------*/
