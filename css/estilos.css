@@ -64,7 +64,7 @@ body{
 @media only screen and (max-width: 772px){
 	#logo-slider{
 	position:absolute;
-	top:11vh;
+	top:15vh;
 	bottom: auto;
 	right: 25%;
 	left: 25%;
@@ -145,5 +145,8 @@ h5, h6{
 .img-width{
 	width: 25%;
 	height: 100%;
+}
+.headers-padding{
+	padding-bottom: 2%;
 }
 /*Animacion logo slider-----------------------*/
