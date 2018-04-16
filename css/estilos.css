@@ -51,7 +51,18 @@ body{
 @media only screen and (min-width:772px){
 #logo-slider{
 	position: absolute;
-	top:20vh;
+	top:24vh;
+	bottom:auto; 
+	right: 50vw;
+	left: 10vw;
+	margin: auto;
+	width: 30%;
+	height: auto;
+	display: block;
+}
+#menu{
+	position: absolute;
+	top:24vh;
 	bottom:auto; 
 	right: 30vw;
 	left: 30vw;
@@ -61,20 +72,22 @@ body{
 	display: block;
 }
 }
+}
 @media only screen and (max-width: 772px){
 	#logo-slider{
 	position:absolute;
-	top:15vh;
+	top:5vh;
 	bottom: auto;
-	right: 25%;
-	left: 25%;
+	right: 35%;
+	left: 35%;
 	margin: auto;
-	width:40%;
+	width:30%;
 	height: auto;
 	display: block;
 
 }
 }
+
 header{
 	padding: 0;
 }
@@ -105,6 +118,7 @@ header{
 	}
 
 	.quienes-somos{
+		background-color:rgba(75,9,127,.6);
 		background-image: url(media/images/fondo.jpg) !important;
 		background-repeat: no-repeat;
 		background-position: center;
@@ -113,11 +127,11 @@ header{
 	}
 
 	.padding-center{
-		padding-bottom: 5%;
+				padding-bottom: 5%;
 		padding-top: 5%;
 	}
 .background-navbar{
-	background-color:#f7f7f7;
+	background-color:#552c88;
 	box-shadow: 8px 8px 8px rgba(0,0,0,.15)
 }
 
@@ -148,5 +162,33 @@ h5, h6{
 }
 .headers-padding{
 	padding-bottom: 2%;
+}
+
+.purple{
+	color:#4b097f;
+}
+
+.blue{
+	color:#306a8e;
+}
+.red{
+	color:#c12b2b;
+}
+.green{
+	color:#3ca80f;
+}
+
+.astronautas{
+	background-color:#accfe5;
+}
+.icons{
+	font-size: 2.5em;
+	padding:15%;
+	margin: auto;
+	display: flex-wrap;
+}
+.center{
+	position: relative;
+	margin: auto;
 }
 /*Animacion logo slider-----------------------*/
